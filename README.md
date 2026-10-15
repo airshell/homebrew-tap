@@ -1,18 +1,58 @@
-# Airshell Tap
+# Airshell Homebrew Tap 🍺
 
-## How do I install these formulae?
+Official Homebrew Tap for [Airshell](https://github.com/airshell) developer tools and macOS applications.
 
-`brew install airshell/tap/<formula>`
+---
 
-Or `brew tap airshell/tap` and then `brew install <formula>`.
+## Available Casks
 
-Or, in a `brew bundle` `Brewfile`:
+| Cask | Description | Install Command |
+| :--- | :--- | :--- |
+| **`ai-optimizer`** | Autonomous token and cost optimizer for AI coding assistants (macOS Menu Bar app) | `brew install --cask airshell/tap/ai-optimizer` |
 
-```ruby
-tap "airshell/tap"
-brew "<formula>"
+---
+
+## 🚀 Installation
+
+### Option 1: One-line install (Recommended)
+
+Install directly without manually adding the tap first:
+
+```bash
+brew install --cask airshell/tap/ai-optimizer
 ```
 
-## Documentation
+### Option 2: Add tap first, then install
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew tap airshell/tap
+brew install --cask ai-optimizer
+```
+
+---
+
+## 🔄 Updates
+
+To update AI Optimizer whenever a new version is released:
+
+```bash
+brew upgrade --cask ai-optimizer
+```
+
+---
+
+## 🗑️ Uninstalling
+
+To cleanly remove AI Optimizer:
+
+```bash
+brew uninstall --cask ai-optimizer
+```
+
+---
+
+## 📜 Links
+
+- **Main Repository:** [github.com/airshell/ai-optimizer](https://github.com/airshell/ai-optimizer)
+- **Official Website:** [optimizer.aimaxo.com](https://optimizer.aimaxo.com)
+- **Author:** [Airshell](https://github.com/airshell)
