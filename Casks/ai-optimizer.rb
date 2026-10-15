@@ -5,7 +5,7 @@ cask "ai-optimizer" do
   url "https://github.com/airshell/ai-optimizer/releases/download/v#{version}/AI-Optimizer-macOS.dmg"
   name "AI Optimizer"
   desc "Autonomous token and cost optimizer for AI coding assistants"
-  homepage "https://optimizer.aimaxo.com"
+  homepage "https://optimizer.aimaxo.com/"
 
   livecheck do
     url :url
