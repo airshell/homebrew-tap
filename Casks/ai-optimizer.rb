@@ -1,6 +1,6 @@
 cask "ai-optimizer" do
-  version "1.0.0"
-  sha256 "a75dc3c538538d5235baf21540f172ece1d1183ee1fe8533c21826e022c6b61c"
+  version "1.0.2"
+  sha256 "0bde4dfbc60978e7191d394975c0f6394ae1c90fef79add73f96be162a320f74"
 
   url "https://github.com/airshell/ai-optimizer/releases/download/v#{version}/AI-Optimizer-macOS.dmg"
   name "AI Optimizer"
